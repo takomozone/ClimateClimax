@@ -1,0 +1,87 @@
+.national-temperature {
+  margin: 100px 5vw 20px;
+  display: grid;
+  grid-template-columns: .55fr 1.45fr;
+  gap: 7vw;
+  align-items: start;
+}
+
+.national-temperature h2 {
+  margin: 0 0 20px;
+  font-family: Newsreader, serif;
+  font-size: clamp(44px, 5vw, 72px);
+  line-height: .92;
+  font-weight: 500;
+  letter-spacing: -.035em;
+}
+
+.national-temperature .temperature-copy {
+  max-width: 390px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.temperature-copy a {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.temperature-plot {
+  min-width: 0;
+}
+
+.temperature-chart-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: end;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.temperature-chart-head strong {
+  font-family: Newsreader, serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.temperature-chart-head span,
+.temperature-chart-head small {
+  display: block;
+  font-size: 11px;
+}
+
+.temperature-chart-head small {
+  opacity: .65;
+  margin-top: 3px;
+}
+
+.temperature-canvas-wrap {
+  height: 390px;
+  padding-top: 22px;
+}
+
+#finlandTemperatureChart {
+  max-height: 390px;
+}
+
+@media (max-width: 900px) {
+  .national-temperature {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .national-temperature {
+    margin: 70px 20px 10px;
+  }
+
+  .temperature-chart-head {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .temperature-canvas-wrap {
+    height: 320px;
+  }
+}

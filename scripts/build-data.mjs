@@ -5,7 +5,9 @@ const specs = [
   { id:'muonio-pine', name:'Muonio ELU01', rwl:'/private/tmp/fin100.rwl', climate:'/private/tmp/muonio-climate.json', lat:67.63, lon:23.95, elevation:340, species:'Scots pine', scientific:'Pinus sylvestris', end:2013 },
   { id:'muonio-spruce', name:'Muonio ELU02', rwl:'/private/tmp/fin101.rwl', climate:'/private/tmp/muonio-climate.json', lat:67.63, lon:23.95, elevation:340, species:'Norway spruce', scientific:'Picea abies', end:2013 },
   { id:'kuusipaa-wet', name:'Kuusipää Wet ELK01', rwl:'/private/tmp/fin098.rwl', climate:'/private/tmp/kuusipaa-climate.json', lat:68.45, lon:27.37, elevation:300, species:'Norway spruce', scientific:'Picea abies', end:2011 },
-  { id:'pitkajarvi-pine', name:'Pitkäjärvi Lake HLP01', rwl:'/private/tmp/fin102.rwl', climate:'/private/tmp/pitkajarvi-climate.json', lat:67.50, lon:24.12, elevation:220, species:'Scots pine', scientific:'Pinus sylvestris', end:2016 }
+  { id:'pitkajarvi-pine', name:'Pitkäjärvi Lake HLP01', rwl:'/private/tmp/fin102.rwl', climate:'/private/tmp/pitkajarvi-climate.json', lat:67.50, lon:24.12, elevation:220, species:'Scots pine', scientific:'Pinus sylvestris', end:2016 },
+  { id:'liesjarvi-spruce', name:'Kyynärä, Liesjärvi FINL012', rwl:'/private/tmp/finl012.rwl', climate:'/private/tmp/liesjarvi-climate.json', lat:60.67, lon:23.88, elevation:115, species:'Norway spruce', scientific:'Picea abies', end:1978 },
+  { id:'kovero-spruce', name:'Kovero FINL013', rwl:'/private/tmp/finl013.rwl', climate:'/private/tmp/kovero-climate.json', lat:61.83, lon:23.48, elevation:180, species:'Norway spruce', scientific:'Picea abies', end:1978 }
 ];
 
 function buildSite(spec) {

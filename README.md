@@ -12,8 +12,11 @@ Then open http://localhost:4173.
 
 ## Data
 
-- NOAA International Tree-Ring Data Bank, Muonio ELU01/ELU02, Kuusipää ELK01 and Pitkäjärvi HLP01, raw ring widths.
+- NOAA International Tree-Ring Data Bank, Muonio ELU01/ELU02, Kuusipää ELK01, Pitkäjärvi HLP01, Kyynärä/Liesjärvi FINL012 and Kovero FINL013, raw ring widths.
 - Open-Meteo Historical Weather API (ERA5-Land), daily mean temperature and precipitation aggregated annually for the Muonio coordinates.
 - Luke GRAF and 2026 NFI spruce research are linked as Finnish research context.
+- LiPheStream, Hyytiälä: 103 terrestrial LiDAR observations of 458 trees from April 2020 to September 2021.
+- Luke MVMI 2021: nationwide 16 m forest-resource rasters covering stand age, height, diameter, canopy, biomass and volume.
+- FMI monthly mean temperature 10 km grids: daily-weighted annual Finland land-grid means for 1970–2025.
 
 The displayed Pearson correlations are exploratory. Raw ring width retains biological age trends and other non-climatic influences.

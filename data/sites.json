@@ -1542,6 +1542,284 @@
           "rain": 833.4
         }
       ]
+    },
+    {
+      "site": {
+        "id": "liesjarvi-spruce",
+        "name": "Kyynärä, Liesjärvi FINL012",
+        "lat": 60.67,
+        "lon": 23.88,
+        "elevation": 115,
+        "species": "Norway spruce",
+        "scientific": "Picea abies"
+      },
+      "years": [
+        {
+          "year": 1961,
+          "ring": 1.289,
+          "samples": 24,
+          "temp": 5.02,
+          "rain": 736.4
+        },
+        {
+          "year": 1962,
+          "ring": 1.68,
+          "samples": 24,
+          "temp": 3.12,
+          "rain": 766
+        },
+        {
+          "year": 1963,
+          "ring": 2.021,
+          "samples": 24,
+          "temp": 3.63,
+          "rain": 670.4
+        },
+        {
+          "year": 1964,
+          "ring": 1.572,
+          "samples": 24,
+          "temp": 4.1,
+          "rain": 520.6
+        },
+        {
+          "year": 1965,
+          "ring": 1.637,
+          "samples": 24,
+          "temp": 3.57,
+          "rain": 665
+        },
+        {
+          "year": 1966,
+          "ring": 1.636,
+          "samples": 24,
+          "temp": 2.85,
+          "rain": 714.5
+        },
+        {
+          "year": 1967,
+          "ring": 1.454,
+          "samples": 24,
+          "temp": 4.25,
+          "rain": 754.6
+        },
+        {
+          "year": 1968,
+          "ring": 1.5,
+          "samples": 24,
+          "temp": 3.57,
+          "rain": 627.7
+        },
+        {
+          "year": 1969,
+          "ring": 1.412,
+          "samples": 24,
+          "temp": 3.43,
+          "rain": 658.5
+        },
+        {
+          "year": 1970,
+          "ring": 1.353,
+          "samples": 24,
+          "temp": 3.63,
+          "rain": 691.4
+        },
+        {
+          "year": 1971,
+          "ring": 1.776,
+          "samples": 24,
+          "temp": 4.18,
+          "rain": 699.5
+        },
+        {
+          "year": 1972,
+          "ring": 1.776,
+          "samples": 24,
+          "temp": 5.2,
+          "rain": 832.2
+        },
+        {
+          "year": 1973,
+          "ring": 1.164,
+          "samples": 24,
+          "temp": 4.42,
+          "rain": 706.2
+        },
+        {
+          "year": 1974,
+          "ring": 1.523,
+          "samples": 24,
+          "temp": 5.24,
+          "rain": 899
+        },
+        {
+          "year": 1975,
+          "ring": 1.698,
+          "samples": 24,
+          "temp": 5.75,
+          "rain": 626.6
+        },
+        {
+          "year": 1976,
+          "ring": 2.108,
+          "samples": 24,
+          "temp": 3.08,
+          "rain": 479
+        },
+        {
+          "year": 1977,
+          "ring": 1.417,
+          "samples": 24,
+          "temp": 3.67,
+          "rain": 791.9
+        },
+        {
+          "year": 1978,
+          "ring": 1.444,
+          "samples": 24,
+          "temp": 2.68,
+          "rain": 639
+        }
+      ]
+    },
+    {
+      "site": {
+        "id": "kovero-spruce",
+        "name": "Kovero FINL013",
+        "lat": 61.83,
+        "lon": 23.48,
+        "elevation": 180,
+        "species": "Norway spruce",
+        "scientific": "Picea abies"
+      },
+      "years": [
+        {
+          "year": 1961,
+          "ring": 0.875,
+          "samples": 24,
+          "temp": 4.51,
+          "rain": 724.7
+        },
+        {
+          "year": 1962,
+          "ring": 0.898,
+          "samples": 24,
+          "temp": 2.55,
+          "rain": 698.8
+        },
+        {
+          "year": 1963,
+          "ring": 1.205,
+          "samples": 24,
+          "temp": 3.12,
+          "rain": 629.8
+        },
+        {
+          "year": 1964,
+          "ring": 0.979,
+          "samples": 24,
+          "temp": 3.49,
+          "rain": 548
+        },
+        {
+          "year": 1965,
+          "ring": 0.908,
+          "samples": 24,
+          "temp": 2.97,
+          "rain": 671.7
+        },
+        {
+          "year": 1966,
+          "ring": 1.051,
+          "samples": 24,
+          "temp": 2.05,
+          "rain": 737.2
+        },
+        {
+          "year": 1967,
+          "ring": 0.96,
+          "samples": 24,
+          "temp": 3.63,
+          "rain": 762.7
+        },
+        {
+          "year": 1968,
+          "ring": 1.104,
+          "samples": 24,
+          "temp": 2.72,
+          "rain": 627.1
+        },
+        {
+          "year": 1969,
+          "ring": 1.007,
+          "samples": 24,
+          "temp": 2.84,
+          "rain": 608.4
+        },
+        {
+          "year": 1970,
+          "ring": 0.939,
+          "samples": 24,
+          "temp": 3.06,
+          "rain": 641
+        },
+        {
+          "year": 1971,
+          "ring": 1.005,
+          "samples": 24,
+          "temp": 3.34,
+          "rain": 699.7
+        },
+        {
+          "year": 1972,
+          "ring": 1.029,
+          "samples": 24,
+          "temp": 4.54,
+          "rain": 755.8
+        },
+        {
+          "year": 1973,
+          "ring": 0.615,
+          "samples": 24,
+          "temp": 3.76,
+          "rain": 696.3
+        },
+        {
+          "year": 1974,
+          "ring": 0.86,
+          "samples": 24,
+          "temp": 4.64,
+          "rain": 919.2
+        },
+        {
+          "year": 1975,
+          "ring": 1.091,
+          "samples": 24,
+          "temp": 4.93,
+          "rain": 667.9
+        },
+        {
+          "year": 1976,
+          "ring": 1.261,
+          "samples": 24,
+          "temp": 2.36,
+          "rain": 562
+        },
+        {
+          "year": 1977,
+          "ring": 0.908,
+          "samples": 24,
+          "temp": 3.06,
+          "rain": 775.2
+        },
+        {
+          "year": 1978,
+          "ring": 0.983,
+          "samples": 24,
+          "temp": 2.15,
+          "rain": 560.2
+        }
+      ]
     }
   ]
 }

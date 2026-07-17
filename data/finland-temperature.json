@@ -1,0 +1,347 @@
+{
+  "title": "Finland annual mean temperature",
+  "period": "1970–2025",
+  "unit": "°C",
+  "trendPerDecade": 0.44,
+  "method": "Daily-weighted annual mean of monthly FMI 10 km gridded temperatures across valid Finland land cells.",
+  "source": "Finnish Meteorological Institute, Monthly mean temperature 10 km grids",
+  "sourceUrl": "https://paituli.csc.fi/download.html?data_id=il_monthly_mean_temp_10km_netcdf_euref",
+  "rows": [
+    {
+      "year": 1970,
+      "temperature": 1.38,
+      "movingAverage": null,
+      "trend": 1.27
+    },
+    {
+      "year": 1971,
+      "temperature": 1.03,
+      "movingAverage": null,
+      "trend": 1.32
+    },
+    {
+      "year": 1972,
+      "temperature": 2.99,
+      "movingAverage": null,
+      "trend": 1.36
+    },
+    {
+      "year": 1973,
+      "temperature": 1.76,
+      "movingAverage": null,
+      "trend": 1.4
+    },
+    {
+      "year": 1974,
+      "temperature": 3.51,
+      "movingAverage": null,
+      "trend": 1.45
+    },
+    {
+      "year": 1975,
+      "temperature": 3.06,
+      "movingAverage": null,
+      "trend": 1.49
+    },
+    {
+      "year": 1976,
+      "temperature": 0.45,
+      "movingAverage": null,
+      "trend": 1.54
+    },
+    {
+      "year": 1977,
+      "temperature": 1.3,
+      "movingAverage": null,
+      "trend": 1.58
+    },
+    {
+      "year": 1978,
+      "temperature": 0.31,
+      "movingAverage": null,
+      "trend": 1.63
+    },
+    {
+      "year": 1979,
+      "temperature": 1.62,
+      "movingAverage": 1.74,
+      "trend": 1.67
+    },
+    {
+      "year": 1980,
+      "temperature": 1.03,
+      "movingAverage": 1.71,
+      "trend": 1.71
+    },
+    {
+      "year": 1981,
+      "temperature": 1.03,
+      "movingAverage": 1.71,
+      "trend": 1.76
+    },
+    {
+      "year": 1982,
+      "temperature": 1.94,
+      "movingAverage": 1.6,
+      "trend": 1.8
+    },
+    {
+      "year": 1983,
+      "temperature": 2.15,
+      "movingAverage": 1.64,
+      "trend": 1.85
+    },
+    {
+      "year": 1984,
+      "temperature": 2.57,
+      "movingAverage": 1.55,
+      "trend": 1.89
+    },
+    {
+      "year": 1985,
+      "temperature": -0.34,
+      "movingAverage": 1.21,
+      "trend": 1.94
+    },
+    {
+      "year": 1986,
+      "temperature": 1.29,
+      "movingAverage": 1.29,
+      "trend": 1.98
+    },
+    {
+      "year": 1987,
+      "temperature": -0.1,
+      "movingAverage": 1.15,
+      "trend": 2.02
+    },
+    {
+      "year": 1988,
+      "temperature": 1.99,
+      "movingAverage": 1.32,
+      "trend": 2.07
+    },
+    {
+      "year": 1989,
+      "temperature": 3.81,
+      "movingAverage": 1.54,
+      "trend": 2.11
+    },
+    {
+      "year": 1990,
+      "temperature": 3.03,
+      "movingAverage": 1.74,
+      "trend": 2.16
+    },
+    {
+      "year": 1991,
+      "temperature": 2.5,
+      "movingAverage": 1.88,
+      "trend": 2.2
+    },
+    {
+      "year": 1992,
+      "temperature": 2.77,
+      "movingAverage": 1.97,
+      "trend": 2.24
+    },
+    {
+      "year": 1993,
+      "temperature": 1.92,
+      "movingAverage": 1.94,
+      "trend": 2.29
+    },
+    {
+      "year": 1994,
+      "temperature": 1.97,
+      "movingAverage": 1.88,
+      "trend": 2.33
+    },
+    {
+      "year": 1995,
+      "temperature": 2.5,
+      "movingAverage": 2.17,
+      "trend": 2.38
+    },
+    {
+      "year": 1996,
+      "temperature": 1.8,
+      "movingAverage": 2.22,
+      "trend": 2.42
+    },
+    {
+      "year": 1997,
+      "temperature": 2.35,
+      "movingAverage": 2.46,
+      "trend": 2.47
+    },
+    {
+      "year": 1998,
+      "temperature": 1.39,
+      "movingAverage": 2.4,
+      "trend": 2.51
+    },
+    {
+      "year": 1999,
+      "temperature": 2.47,
+      "movingAverage": 2.27,
+      "trend": 2.55
+    },
+    {
+      "year": 2000,
+      "temperature": 3.67,
+      "movingAverage": 2.33,
+      "trend": 2.6
+    },
+    {
+      "year": 2001,
+      "temperature": 2.23,
+      "movingAverage": 2.31,
+      "trend": 2.64
+    },
+    {
+      "year": 2002,
+      "temperature": 2.37,
+      "movingAverage": 2.27,
+      "trend": 2.69
+    },
+    {
+      "year": 2003,
+      "temperature": 2.64,
+      "movingAverage": 2.34,
+      "trend": 2.73
+    },
+    {
+      "year": 2004,
+      "temperature": 2.79,
+      "movingAverage": 2.42,
+      "trend": 2.78
+    },
+    {
+      "year": 2005,
+      "temperature": 3.46,
+      "movingAverage": 2.52,
+      "trend": 2.82
+    },
+    {
+      "year": 2006,
+      "temperature": 3.15,
+      "movingAverage": 2.65,
+      "trend": 2.86
+    },
+    {
+      "year": 2007,
+      "temperature": 3.35,
+      "movingAverage": 2.75,
+      "trend": 2.91
+    },
+    {
+      "year": 2008,
+      "temperature": 3.38,
+      "movingAverage": 2.95,
+      "trend": 2.95
+    },
+    {
+      "year": 2009,
+      "temperature": 2.61,
+      "movingAverage": 2.96,
+      "trend": 3.0
+    },
+    {
+      "year": 2010,
+      "temperature": 1.32,
+      "movingAverage": 2.73,
+      "trend": 3.04
+    },
+    {
+      "year": 2011,
+      "temperature": 3.8,
+      "movingAverage": 2.89,
+      "trend": 3.08
+    },
+    {
+      "year": 2012,
+      "temperature": 2.03,
+      "movingAverage": 2.85,
+      "trend": 3.13
+    },
+    {
+      "year": 2013,
+      "temperature": 3.6,
+      "movingAverage": 2.95,
+      "trend": 3.17
+    },
+    {
+      "year": 2014,
+      "temperature": 3.82,
+      "movingAverage": 3.05,
+      "trend": 3.22
+    },
+    {
+      "year": 2015,
+      "temperature": 4.14,
+      "movingAverage": 3.12,
+      "trend": 3.26
+    },
+    {
+      "year": 2016,
+      "temperature": 3.37,
+      "movingAverage": 3.14,
+      "trend": 3.31
+    },
+    {
+      "year": 2017,
+      "temperature": 2.85,
+      "movingAverage": 3.09,
+      "trend": 3.35
+    },
+    {
+      "year": 2018,
+      "temperature": 3.58,
+      "movingAverage": 3.11,
+      "trend": 3.39
+    },
+    {
+      "year": 2019,
+      "temperature": 3.06,
+      "movingAverage": 3.16,
+      "trend": 3.44
+    },
+    {
+      "year": 2020,
+      "temperature": 4.72,
+      "movingAverage": 3.5,
+      "trend": 3.48
+    },
+    {
+      "year": 2021,
+      "temperature": 2.77,
+      "movingAverage": 3.39,
+      "trend": 3.53
+    },
+    {
+      "year": 2022,
+      "temperature": 3.69,
+      "movingAverage": 3.56,
+      "trend": 3.57
+    },
+    {
+      "year": 2023,
+      "temperature": 3.1,
+      "movingAverage": 3.51,
+      "trend": 3.62
+    },
+    {
+      "year": 2024,
+      "temperature": 3.93,
+      "movingAverage": 3.52,
+      "trend": 3.66
+    },
+    {
+      "year": 2025,
+      "temperature": 4.42,
+      "movingAverage": 3.55,
+      "trend": 3.7
+    }
+  ]
+}

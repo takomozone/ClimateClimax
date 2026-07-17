@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="map-markers.css">
+  <link rel="stylesheet" href="temperature-chart.css">
 </head>
 <body>
   <header class="topbar">
@@ -28,19 +29,28 @@
       <div class="map-pane">
         <div class="map-heading"><div><span class="label">Research map</span><strong>Finland</strong></div><button id="recenter">Recenter</button></div>
         <div id="map" aria-label="Topographic map of Finland with research sites"></div>
-        <div class="map-key"><span><i class="dot active"></i> Selected chronology</span><span><i class="dot study"></i> Other measured sites</span></div>
+        <div class="map-key"><span><i class="dot active"></i> Selected</span><span><i class="dot study"></i> Tree rings</span><span><i class="dot lidar"></i> LiDAR</span></div>
       </div>
       <aside class="analysis-pane">
         <div class="site-head"><div><p class="eyebrow">Selected site</p><h2 id="siteName">Muonio ELU01</h2><p id="siteMeta">Scots pine · 67.63°N, 23.95°E · 340 m</p></div><div class="tree-mark">♧</div></div>
-        <div class="range-row"><label for="startYear">Period</label><div><select id="startYear"></select><span>—</span><select id="endYear"></select></div></div>
+        <div class="range-row" id="rangeRow"><label for="startYear">Period</label><div><select id="startYear"></select><span>—</span><select id="endYear"></select></div></div>
         <div class="metrics">
-          <div><span>Temperature correlation</span><strong id="tempCorr">—</strong><small>Pearson r</small></div>
-          <div><span>Rainfall correlation</span><strong id="rainCorr">—</strong><small>Pearson r</small></div>
+          <div><span id="metricOneLabel">Temperature correlation</span><strong id="tempCorr">—</strong><small id="metricOneNote">Pearson r</small></div>
+          <div><span id="metricTwoLabel">Rainfall correlation</span><strong id="rainCorr">—</strong><small id="metricTwoNote">Pearson r</small></div>
         </div>
-        <div class="chart-block"><div class="chart-title"><div><h3>Growth & temperature</h3><p>Ring width (mm) · annual mean (°C)</p></div><div class="legend"><span class="ring">Growth</span><span class="temp">Temp</span></div></div><canvas id="growthChart"></canvas></div>
-        <div class="chart-block compact"><div class="chart-title"><div><h3>Rainfall response</h3><p>Annual precipitation (mm)</p></div></div><canvas id="rainChart"></canvas></div>
+        <div class="chart-block ring-chart"><div class="chart-title"><div><h3>Growth & temperature</h3><p>Ring width (mm) · annual mean and 10-year average (°C)</p></div><div class="legend"><span class="ring">Growth</span><span class="temp">Annual temp</span><span class="temp-average">10-year temp</span></div></div><canvas id="growthChart" aria-label="Tree-ring growth, annual temperature and 10-year temperature moving average for the selected research site"></canvas></div>
+        <div class="chart-block compact ring-chart"><div class="chart-title"><div><h3>Rainfall response</h3><p>Annual precipitation (mm)</p></div></div><canvas id="rainChart"></canvas></div>
+        <div class="context-details" id="contextDetails" hidden><p class="eyebrow">Available measurements</p><h3>Individual-tree 3D point-cloud time series</h3><p>103 observations at an average interval of 3.5 days, covering Scots pine, Norway spruce and silver birch through two growing seasons.</p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11589874/" target="_blank">Open LiPheStream dataset description ↗</a></div>
         <p class="selection-note" id="selectionNote"></p>
       </aside>
+    </section>
+
+    <section class="national-temperature" aria-labelledby="finland-temperature-title">
+      <div class="temperature-copy"><p class="eyebrow">National climate signal</p><h2 id="finland-temperature-title">Finland is getting warmer.</h2><p>Annual mean air temperature across Finland’s land grid, calculated from FMI’s observation-based 10 km monthly temperature dataset. The latest complete year is 2025.</p><p><a href="https://en.ilmatieteenlaitos.fi/download-observations" target="_blank">FMI Download Observations ↗</a></p></div>
+      <div class="temperature-plot">
+        <div class="temperature-chart-head"><div><span>Annual mean temperature</span><strong>1970–2025 · °C</strong></div><div><span id="nationalTrend">—</span><small>linear trend per decade</small></div></div>
+        <div class="temperature-canvas-wrap"><canvas id="finlandTemperatureChart" aria-label="Finland annual mean temperature from 1970 to 2025"></canvas></div>
+      </div>
     </section>
 
     <section id="method" class="method">
@@ -49,9 +59,12 @@
     </section>
 
     <section id="sources" class="sources"><div><p class="eyebrow">Open research data</p><h2>Sources & provenance</h2></div><div class="source-list">
-      <a href="https://doi.org/10.25921/c3qh-2h10" target="_blank"><span>Tree-ring measurements</span><strong>NOAA International Tree-Ring Data Bank · Muonio ELU01</strong><em>Raw ring widths, accessed 17 Jul 2026 ↗</em></a>
+      <a href="https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/" target="_blank"><span>Tree-ring measurements</span><strong>NOAA International Tree-Ring Data Bank · six Finnish chronologies</strong><em>Raw ring widths, accessed 17 Jul 2026 ↗</em></a>
       <a href="https://open-meteo.com/en/docs/historical-weather-api" target="_blank"><span>Climate series</span><strong>Open-Meteo Historical Weather API · ERA5-Land</strong><em>Daily mean temperature & precipitation ↗</em></a>
+      <a href="https://paituli.csc.fi/download.html?data_id=il_monthly_mean_temp_10km_netcdf_euref" target="_blank"><span>National temperature · 1970–2025</span><strong>Finnish Meteorological Institute · 10 km monthly grids</strong><em>Observation-based gridded temperature ↗</em></a>
       <a href="https://www.luke.fi/en/projects/graf" target="_blank"><span>Finnish research context</span><strong>Natural Resources Institute Finland (Luke) · GRAF</strong><em>Tree growth variability and climate ↗</em></a>
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11589874/" target="_blank"><span>3D tree dynamics · 2020–2021</span><strong>LiPheStream · Hyytiälä · 458 individual trees</strong><em>103 terrestrial LiDAR observations ↗</em></a>
+      <a href="https://opendata.luke.fi/fi/dataset/urn-nbn-fi-att-f8f2ff42-6ab6-45a6-a822-b8d62e48afe8" target="_blank"><span>Nationwide forest structure · 2021</span><strong>Luke MVMI · 45 raster themes at 16 m resolution</strong><em>Age, height, diameter, canopy, biomass & volume ↗</em></a>
       <a href="https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/datasets-and-interfaces/product-descriptions/topographic-database" target="_blank"><span>Landscape reference</span><strong>National Land Survey of Finland</strong><em>Topography, forests, water & elevation ↗</em></a>
     </div></section>
   </main>
