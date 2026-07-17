@@ -1,0 +1,1547 @@
+{
+  "sites": [
+    {
+      "site": {
+        "id": "muonio-pine",
+        "name": "Muonio ELU01",
+        "lat": 67.63,
+        "lon": 23.95,
+        "elevation": 340,
+        "species": "Scots pine",
+        "scientific": "Pinus sylvestris"
+      },
+      "years": [
+        {
+          "year": 1961,
+          "ring": 0.362,
+          "samples": 55,
+          "temp": 0.66,
+          "rain": 698.2
+        },
+        {
+          "year": 1962,
+          "ring": 0.399,
+          "samples": 55,
+          "temp": -1.5,
+          "rain": 615.1
+        },
+        {
+          "year": 1963,
+          "ring": 0.345,
+          "samples": 55,
+          "temp": -0.46,
+          "rain": 556.8
+        },
+        {
+          "year": 1964,
+          "ring": 0.461,
+          "samples": 55,
+          "temp": 0.14,
+          "rain": 600.8
+        },
+        {
+          "year": 1965,
+          "ring": 0.369,
+          "samples": 57,
+          "temp": -1.55,
+          "rain": 692.8
+        },
+        {
+          "year": 1966,
+          "ring": 0.426,
+          "samples": 58,
+          "temp": -2.4,
+          "rain": 599.5
+        },
+        {
+          "year": 1967,
+          "ring": 0.484,
+          "samples": 58,
+          "temp": -0.14,
+          "rain": 743.2
+        },
+        {
+          "year": 1968,
+          "ring": 0.464,
+          "samples": 57,
+          "temp": -1.62,
+          "rain": 463.3
+        },
+        {
+          "year": 1969,
+          "ring": 0.427,
+          "samples": 59,
+          "temp": -0.73,
+          "rain": 468.2
+        },
+        {
+          "year": 1970,
+          "ring": 0.458,
+          "samples": 59,
+          "temp": -0.29,
+          "rain": 505.8
+        },
+        {
+          "year": 1971,
+          "ring": 0.503,
+          "samples": 63,
+          "temp": -1.39,
+          "rain": 461.5
+        },
+        {
+          "year": 1972,
+          "ring": 0.488,
+          "samples": 66,
+          "temp": 1.02,
+          "rain": 608.5
+        },
+        {
+          "year": 1973,
+          "ring": 0.585,
+          "samples": 66,
+          "temp": -0.62,
+          "rain": 544.3
+        },
+        {
+          "year": 1974,
+          "ring": 0.514,
+          "samples": 68,
+          "temp": 1.49,
+          "rain": 765.8
+        },
+        {
+          "year": 1975,
+          "ring": 0.576,
+          "samples": 68,
+          "temp": 0.38,
+          "rain": 551.8
+        },
+        {
+          "year": 1976,
+          "ring": 0.721,
+          "samples": 69,
+          "temp": -0.96,
+          "rain": 422.1
+        },
+        {
+          "year": 1977,
+          "ring": 0.579,
+          "samples": 71,
+          "temp": -0.93,
+          "rain": 692.1
+        },
+        {
+          "year": 1978,
+          "ring": 0.586,
+          "samples": 73,
+          "temp": -1.58,
+          "rain": 495.7
+        },
+        {
+          "year": 1979,
+          "ring": 0.713,
+          "samples": 73,
+          "temp": -0.47,
+          "rain": 584.8
+        },
+        {
+          "year": 1980,
+          "ring": 0.645,
+          "samples": 73,
+          "temp": -1.31,
+          "rain": 412.3
+        },
+        {
+          "year": 1981,
+          "ring": 0.556,
+          "samples": 73,
+          "temp": -1.92,
+          "rain": 629.1
+        },
+        {
+          "year": 1982,
+          "ring": 0.602,
+          "samples": 73,
+          "temp": -0.21,
+          "rain": 583.3
+        },
+        {
+          "year": 1983,
+          "ring": 0.623,
+          "samples": 73,
+          "temp": -0.33,
+          "rain": 586.4
+        },
+        {
+          "year": 1984,
+          "ring": 0.556,
+          "samples": 73,
+          "temp": 0.33,
+          "rain": 569.8
+        },
+        {
+          "year": 1985,
+          "ring": 0.647,
+          "samples": 73,
+          "temp": -2.25,
+          "rain": 597.2
+        },
+        {
+          "year": 1986,
+          "ring": 0.71,
+          "samples": 76,
+          "temp": -0.7,
+          "rain": 498.9
+        },
+        {
+          "year": 1987,
+          "ring": 0.606,
+          "samples": 76,
+          "temp": -1.64,
+          "rain": 494.2
+        },
+        {
+          "year": 1988,
+          "ring": 0.591,
+          "samples": 78,
+          "temp": -0.26,
+          "rain": 507.9
+        },
+        {
+          "year": 1989,
+          "ring": 0.597,
+          "samples": 78,
+          "temp": 1.39,
+          "rain": 619.7
+        },
+        {
+          "year": 1990,
+          "ring": 0.616,
+          "samples": 78,
+          "temp": 1,
+          "rain": 495.2
+        },
+        {
+          "year": 1991,
+          "ring": 0.565,
+          "samples": 80,
+          "temp": 0.11,
+          "rain": 563.9
+        },
+        {
+          "year": 1992,
+          "ring": 0.468,
+          "samples": 80,
+          "temp": 0.65,
+          "rain": 692.3
+        },
+        {
+          "year": 1993,
+          "ring": 0.52,
+          "samples": 80,
+          "temp": -0.08,
+          "rain": 537.6
+        },
+        {
+          "year": 1994,
+          "ring": 0.517,
+          "samples": 80,
+          "temp": -0.17,
+          "rain": 417.6
+        },
+        {
+          "year": 1995,
+          "ring": 0.459,
+          "samples": 80,
+          "temp": -0.18,
+          "rain": 566.9
+        },
+        {
+          "year": 1996,
+          "ring": 0.483,
+          "samples": 80,
+          "temp": -0.25,
+          "rain": 583.8
+        },
+        {
+          "year": 1997,
+          "ring": 0.581,
+          "samples": 82,
+          "temp": 0.35,
+          "rain": 449
+        },
+        {
+          "year": 1998,
+          "ring": 0.578,
+          "samples": 82,
+          "temp": -1.11,
+          "rain": 694.3
+        },
+        {
+          "year": 1999,
+          "ring": 0.583,
+          "samples": 82,
+          "temp": 0.04,
+          "rain": 628.7
+        },
+        {
+          "year": 2000,
+          "ring": 0.647,
+          "samples": 84,
+          "temp": 1.33,
+          "rain": 640.9
+        },
+        {
+          "year": 2001,
+          "ring": 0.639,
+          "samples": 86,
+          "temp": 0.07,
+          "rain": 575.7
+        },
+        {
+          "year": 2002,
+          "ring": 0.668,
+          "samples": 86,
+          "temp": 0.41,
+          "rain": 433.6
+        },
+        {
+          "year": 2003,
+          "ring": 0.713,
+          "samples": 90,
+          "temp": 0.65,
+          "rain": 487.5
+        },
+        {
+          "year": 2004,
+          "ring": 0.696,
+          "samples": 90,
+          "temp": 0.63,
+          "rain": 690.6
+        },
+        {
+          "year": 2005,
+          "ring": 0.648,
+          "samples": 92,
+          "temp": 1.32,
+          "rain": 640.1
+        },
+        {
+          "year": 2006,
+          "ring": 0.685,
+          "samples": 92,
+          "temp": 1.05,
+          "rain": 514.4
+        },
+        {
+          "year": 2007,
+          "ring": 0.55,
+          "samples": 92,
+          "temp": 0.91,
+          "rain": 602
+        },
+        {
+          "year": 2008,
+          "ring": 0.564,
+          "samples": 92,
+          "temp": 0.43,
+          "rain": 548.5
+        },
+        {
+          "year": 2009,
+          "ring": 0.591,
+          "samples": 92,
+          "temp": 0.61,
+          "rain": 444.9
+        },
+        {
+          "year": 2010,
+          "ring": 0.547,
+          "samples": 92,
+          "temp": -0.92,
+          "rain": 511.3
+        },
+        {
+          "year": 2011,
+          "ring": 0.686,
+          "samples": 91,
+          "temp": 1.52,
+          "rain": 690.1
+        },
+        {
+          "year": 2012,
+          "ring": 0.614,
+          "samples": 91,
+          "temp": -0.35,
+          "rain": 660.5
+        },
+        {
+          "year": 2013,
+          "ring": 0.517,
+          "samples": 88,
+          "temp": 1.29,
+          "rain": 538.2
+        }
+      ]
+    },
+    {
+      "site": {
+        "id": "muonio-spruce",
+        "name": "Muonio ELU02",
+        "lat": 67.63,
+        "lon": 23.95,
+        "elevation": 340,
+        "species": "Norway spruce",
+        "scientific": "Picea abies"
+      },
+      "years": [
+        {
+          "year": 1961,
+          "ring": 0.384,
+          "samples": 73,
+          "temp": 0.66,
+          "rain": 698.2
+        },
+        {
+          "year": 1962,
+          "ring": 0.341,
+          "samples": 73,
+          "temp": -1.5,
+          "rain": 615.1
+        },
+        {
+          "year": 1963,
+          "ring": 0.369,
+          "samples": 73,
+          "temp": -0.46,
+          "rain": 556.8
+        },
+        {
+          "year": 1964,
+          "ring": 0.469,
+          "samples": 73,
+          "temp": 0.14,
+          "rain": 600.8
+        },
+        {
+          "year": 1965,
+          "ring": 0.534,
+          "samples": 75,
+          "temp": -1.55,
+          "rain": 692.8
+        },
+        {
+          "year": 1966,
+          "ring": 0.613,
+          "samples": 75,
+          "temp": -2.4,
+          "rain": 599.5
+        },
+        {
+          "year": 1967,
+          "ring": 0.599,
+          "samples": 75,
+          "temp": -0.14,
+          "rain": 743.2
+        },
+        {
+          "year": 1968,
+          "ring": 0.511,
+          "samples": 78,
+          "temp": -1.62,
+          "rain": 463.3
+        },
+        {
+          "year": 1969,
+          "ring": 0.625,
+          "samples": 80,
+          "temp": -0.73,
+          "rain": 468.2
+        },
+        {
+          "year": 1970,
+          "ring": 0.667,
+          "samples": 81,
+          "temp": -0.29,
+          "rain": 505.8
+        },
+        {
+          "year": 1971,
+          "ring": 0.52,
+          "samples": 81,
+          "temp": -1.39,
+          "rain": 461.5
+        },
+        {
+          "year": 1972,
+          "ring": 0.483,
+          "samples": 83,
+          "temp": 1.02,
+          "rain": 608.5
+        },
+        {
+          "year": 1973,
+          "ring": 0.493,
+          "samples": 84,
+          "temp": -0.62,
+          "rain": 544.3
+        },
+        {
+          "year": 1974,
+          "ring": 0.445,
+          "samples": 84,
+          "temp": 1.49,
+          "rain": 765.8
+        },
+        {
+          "year": 1975,
+          "ring": 0.296,
+          "samples": 84,
+          "temp": 0.38,
+          "rain": 551.8
+        },
+        {
+          "year": 1976,
+          "ring": 0.557,
+          "samples": 84,
+          "temp": -0.96,
+          "rain": 422.1
+        },
+        {
+          "year": 1977,
+          "ring": 0.445,
+          "samples": 84,
+          "temp": -0.93,
+          "rain": 692.1
+        },
+        {
+          "year": 1978,
+          "ring": 0.527,
+          "samples": 84,
+          "temp": -1.58,
+          "rain": 495.7
+        },
+        {
+          "year": 1979,
+          "ring": 0.589,
+          "samples": 84,
+          "temp": -0.47,
+          "rain": 584.8
+        },
+        {
+          "year": 1980,
+          "ring": 0.509,
+          "samples": 85,
+          "temp": -1.31,
+          "rain": 412.3
+        },
+        {
+          "year": 1981,
+          "ring": 0.427,
+          "samples": 89,
+          "temp": -1.92,
+          "rain": 629.1
+        },
+        {
+          "year": 1982,
+          "ring": 0.295,
+          "samples": 89,
+          "temp": -0.21,
+          "rain": 583.3
+        },
+        {
+          "year": 1983,
+          "ring": 0.417,
+          "samples": 89,
+          "temp": -0.33,
+          "rain": 586.4
+        },
+        {
+          "year": 1984,
+          "ring": 0.491,
+          "samples": 89,
+          "temp": 0.33,
+          "rain": 569.8
+        },
+        {
+          "year": 1985,
+          "ring": 0.511,
+          "samples": 89,
+          "temp": -2.25,
+          "rain": 597.2
+        },
+        {
+          "year": 1986,
+          "ring": 0.507,
+          "samples": 89,
+          "temp": -0.7,
+          "rain": 498.9
+        },
+        {
+          "year": 1987,
+          "ring": 0.478,
+          "samples": 89,
+          "temp": -1.64,
+          "rain": 494.2
+        },
+        {
+          "year": 1988,
+          "ring": 0.544,
+          "samples": 89,
+          "temp": -0.26,
+          "rain": 507.9
+        },
+        {
+          "year": 1989,
+          "ring": 0.386,
+          "samples": 89,
+          "temp": 1.39,
+          "rain": 619.7
+        },
+        {
+          "year": 1990,
+          "ring": 0.398,
+          "samples": 89,
+          "temp": 1,
+          "rain": 495.2
+        },
+        {
+          "year": 1991,
+          "ring": 0.461,
+          "samples": 89,
+          "temp": 0.11,
+          "rain": 563.9
+        },
+        {
+          "year": 1992,
+          "ring": 0.474,
+          "samples": 89,
+          "temp": 0.65,
+          "rain": 692.3
+        },
+        {
+          "year": 1993,
+          "ring": 0.389,
+          "samples": 90,
+          "temp": -0.08,
+          "rain": 537.6
+        },
+        {
+          "year": 1994,
+          "ring": 0.495,
+          "samples": 90,
+          "temp": -0.17,
+          "rain": 417.6
+        },
+        {
+          "year": 1995,
+          "ring": 0.512,
+          "samples": 90,
+          "temp": -0.18,
+          "rain": 566.9
+        },
+        {
+          "year": 1996,
+          "ring": 0.582,
+          "samples": 92,
+          "temp": -0.25,
+          "rain": 583.8
+        },
+        {
+          "year": 1997,
+          "ring": 0.553,
+          "samples": 94,
+          "temp": 0.35,
+          "rain": 449
+        },
+        {
+          "year": 1998,
+          "ring": 0.515,
+          "samples": 98,
+          "temp": -1.11,
+          "rain": 694.3
+        },
+        {
+          "year": 1999,
+          "ring": 0.591,
+          "samples": 97,
+          "temp": 0.04,
+          "rain": 628.7
+        },
+        {
+          "year": 2000,
+          "ring": 0.557,
+          "samples": 97,
+          "temp": 1.33,
+          "rain": 640.9
+        },
+        {
+          "year": 2001,
+          "ring": 0.588,
+          "samples": 99,
+          "temp": 0.07,
+          "rain": 575.7
+        },
+        {
+          "year": 2002,
+          "ring": 0.606,
+          "samples": 99,
+          "temp": 0.41,
+          "rain": 433.6
+        },
+        {
+          "year": 2003,
+          "ring": 0.502,
+          "samples": 99,
+          "temp": 0.65,
+          "rain": 487.5
+        },
+        {
+          "year": 2004,
+          "ring": 0.537,
+          "samples": 99,
+          "temp": 0.63,
+          "rain": 690.6
+        },
+        {
+          "year": 2005,
+          "ring": 0.561,
+          "samples": 99,
+          "temp": 1.32,
+          "rain": 640.1
+        },
+        {
+          "year": 2006,
+          "ring": 0.56,
+          "samples": 99,
+          "temp": 1.05,
+          "rain": 514.4
+        },
+        {
+          "year": 2007,
+          "ring": 0.534,
+          "samples": 99,
+          "temp": 0.91,
+          "rain": 602
+        },
+        {
+          "year": 2008,
+          "ring": 0.525,
+          "samples": 99,
+          "temp": 0.43,
+          "rain": 548.5
+        },
+        {
+          "year": 2009,
+          "ring": 0.456,
+          "samples": 99,
+          "temp": 0.61,
+          "rain": 444.9
+        },
+        {
+          "year": 2010,
+          "ring": 0.456,
+          "samples": 99,
+          "temp": -0.92,
+          "rain": 511.3
+        },
+        {
+          "year": 2011,
+          "ring": 0.529,
+          "samples": 99,
+          "temp": 1.52,
+          "rain": 690.1
+        },
+        {
+          "year": 2012,
+          "ring": 0.36,
+          "samples": 99,
+          "temp": -0.35,
+          "rain": 660.5
+        },
+        {
+          "year": 2013,
+          "ring": 0.448,
+          "samples": 97,
+          "temp": 1.29,
+          "rain": 538.2
+        }
+      ]
+    },
+    {
+      "site": {
+        "id": "kuusipaa-wet",
+        "name": "Kuusipää Wet ELK01",
+        "lat": 68.45,
+        "lon": 27.37,
+        "elevation": 300,
+        "species": "Norway spruce",
+        "scientific": "Picea abies"
+      },
+      "years": [
+        {
+          "year": 1961,
+          "ring": 0.914,
+          "samples": 54,
+          "temp": -0.63,
+          "rain": 691.5
+        },
+        {
+          "year": 1962,
+          "ring": 0.759,
+          "samples": 54,
+          "temp": -2.75,
+          "rain": 614.1
+        },
+        {
+          "year": 1963,
+          "ring": 0.721,
+          "samples": 54,
+          "temp": -1.66,
+          "rain": 530
+        },
+        {
+          "year": 1964,
+          "ring": 1.029,
+          "samples": 55,
+          "temp": -1.12,
+          "rain": 653.8
+        },
+        {
+          "year": 1965,
+          "ring": 0.939,
+          "samples": 56,
+          "temp": -2.86,
+          "rain": 658
+        },
+        {
+          "year": 1966,
+          "ring": 1.08,
+          "samples": 56,
+          "temp": -3.62,
+          "rain": 577.4
+        },
+        {
+          "year": 1967,
+          "ring": 0.962,
+          "samples": 56,
+          "temp": -0.81,
+          "rain": 705.4
+        },
+        {
+          "year": 1968,
+          "ring": 0.904,
+          "samples": 56,
+          "temp": -2.95,
+          "rain": 487.1
+        },
+        {
+          "year": 1969,
+          "ring": 1.21,
+          "samples": 56,
+          "temp": -2.04,
+          "rain": 416.9
+        },
+        {
+          "year": 1970,
+          "ring": 1.092,
+          "samples": 56,
+          "temp": -1.42,
+          "rain": 510.8
+        },
+        {
+          "year": 1971,
+          "ring": 0.816,
+          "samples": 56,
+          "temp": -2.92,
+          "rain": 549.1
+        },
+        {
+          "year": 1972,
+          "ring": 1.009,
+          "samples": 56,
+          "temp": 0.07,
+          "rain": 619.5
+        },
+        {
+          "year": 1973,
+          "ring": 1.056,
+          "samples": 57,
+          "temp": -1.78,
+          "rain": 535
+        },
+        {
+          "year": 1974,
+          "ring": 0.783,
+          "samples": 57,
+          "temp": 0.51,
+          "rain": 705.6
+        },
+        {
+          "year": 1975,
+          "ring": 0.405,
+          "samples": 57,
+          "temp": -0.98,
+          "rain": 653.1
+        },
+        {
+          "year": 1976,
+          "ring": 0.641,
+          "samples": 57,
+          "temp": -2.12,
+          "rain": 435.6
+        },
+        {
+          "year": 1977,
+          "ring": 0.564,
+          "samples": 58,
+          "temp": -2.02,
+          "rain": 677.6
+        },
+        {
+          "year": 1978,
+          "ring": 0.666,
+          "samples": 60,
+          "temp": -2.7,
+          "rain": 506.7
+        },
+        {
+          "year": 1979,
+          "ring": 0.796,
+          "samples": 60,
+          "temp": -1.46,
+          "rain": 492.6
+        },
+        {
+          "year": 1980,
+          "ring": 0.768,
+          "samples": 60,
+          "temp": -2.14,
+          "rain": 429.5
+        },
+        {
+          "year": 1981,
+          "ring": 0.666,
+          "samples": 60,
+          "temp": -2.96,
+          "rain": 621.2
+        },
+        {
+          "year": 1982,
+          "ring": 0.472,
+          "samples": 60,
+          "temp": -1.27,
+          "rain": 572.6
+        },
+        {
+          "year": 1983,
+          "ring": 0.587,
+          "samples": 60,
+          "temp": -1.58,
+          "rain": 555.7
+        },
+        {
+          "year": 1984,
+          "ring": 0.662,
+          "samples": 60,
+          "temp": -0.88,
+          "rain": 512.4
+        },
+        {
+          "year": 1985,
+          "ring": 0.782,
+          "samples": 60,
+          "temp": -3.08,
+          "rain": 556.6
+        },
+        {
+          "year": 1986,
+          "ring": 0.697,
+          "samples": 60,
+          "temp": -1.8,
+          "rain": 470.7
+        },
+        {
+          "year": 1987,
+          "ring": 0.654,
+          "samples": 60,
+          "temp": -2.71,
+          "rain": 453.3
+        },
+        {
+          "year": 1988,
+          "ring": 0.838,
+          "samples": 60,
+          "temp": -1.61,
+          "rain": 480.6
+        },
+        {
+          "year": 1989,
+          "ring": 0.542,
+          "samples": 63,
+          "temp": 0.46,
+          "rain": 560.3
+        },
+        {
+          "year": 1990,
+          "ring": 0.58,
+          "samples": 62,
+          "temp": -0.31,
+          "rain": 434.2
+        },
+        {
+          "year": 1991,
+          "ring": 0.74,
+          "samples": 60,
+          "temp": -0.83,
+          "rain": 539.6
+        },
+        {
+          "year": 1992,
+          "ring": 0.696,
+          "samples": 60,
+          "temp": -0.59,
+          "rain": 689.9
+        },
+        {
+          "year": 1993,
+          "ring": 0.485,
+          "samples": 60,
+          "temp": -1.46,
+          "rain": 516.5
+        },
+        {
+          "year": 1994,
+          "ring": 0.649,
+          "samples": 60,
+          "temp": -1,
+          "rain": 397.3
+        },
+        {
+          "year": 1995,
+          "ring": 0.702,
+          "samples": 60,
+          "temp": -1.36,
+          "rain": 574.9
+        },
+        {
+          "year": 1996,
+          "ring": 0.786,
+          "samples": 62,
+          "temp": -1.35,
+          "rain": 496.1
+        },
+        {
+          "year": 1997,
+          "ring": 0.889,
+          "samples": 62,
+          "temp": -1.15,
+          "rain": 444.2
+        },
+        {
+          "year": 1998,
+          "ring": 0.682,
+          "samples": 62,
+          "temp": -2.74,
+          "rain": 639.2
+        },
+        {
+          "year": 1999,
+          "ring": 0.84,
+          "samples": 62,
+          "temp": -1.28,
+          "rain": 535.1
+        },
+        {
+          "year": 2000,
+          "ring": 0.629,
+          "samples": 62,
+          "temp": 0.09,
+          "rain": 646.2
+        },
+        {
+          "year": 2001,
+          "ring": 0.711,
+          "samples": 62,
+          "temp": -1.3,
+          "rain": 511.1
+        },
+        {
+          "year": 2002,
+          "ring": 0.715,
+          "samples": 64,
+          "temp": -1.03,
+          "rain": 481
+        },
+        {
+          "year": 2003,
+          "ring": 0.496,
+          "samples": 66,
+          "temp": -0.49,
+          "rain": 416.7
+        },
+        {
+          "year": 2004,
+          "ring": 0.626,
+          "samples": 67,
+          "temp": -0.19,
+          "rain": 575.3
+        },
+        {
+          "year": 2005,
+          "ring": 0.635,
+          "samples": 67,
+          "temp": 0.29,
+          "rain": 605.7
+        },
+        {
+          "year": 2006,
+          "ring": 0.624,
+          "samples": 67,
+          "temp": -0.29,
+          "rain": 494.8
+        },
+        {
+          "year": 2007,
+          "ring": 0.525,
+          "samples": 70,
+          "temp": -0.17,
+          "rain": 567.6
+        },
+        {
+          "year": 2008,
+          "ring": 0.532,
+          "samples": 70,
+          "temp": -0.86,
+          "rain": 499.4
+        },
+        {
+          "year": 2009,
+          "ring": 0.468,
+          "samples": 69,
+          "temp": -0.88,
+          "rain": 460.8
+        },
+        {
+          "year": 2010,
+          "ring": 0.587,
+          "samples": 69,
+          "temp": -1.95,
+          "rain": 523.5
+        },
+        {
+          "year": 2011,
+          "ring": 0.521,
+          "samples": 66,
+          "temp": 0.36,
+          "rain": 610.1
+        }
+      ]
+    },
+    {
+      "site": {
+        "id": "pitkajarvi-pine",
+        "name": "Pitkäjärvi Lake HLP01",
+        "lat": 67.5,
+        "lon": 24.12,
+        "elevation": 220,
+        "species": "Scots pine",
+        "scientific": "Pinus sylvestris"
+      },
+      "years": [
+        {
+          "year": 1961,
+          "ring": 0.418,
+          "samples": 46,
+          "temp": 0.47,
+          "rain": 694
+        },
+        {
+          "year": 1962,
+          "ring": 0.472,
+          "samples": 46,
+          "temp": -1.72,
+          "rain": 638.4
+        },
+        {
+          "year": 1963,
+          "ring": 0.391,
+          "samples": 46,
+          "temp": -0.76,
+          "rain": 571.1
+        },
+        {
+          "year": 1964,
+          "ring": 0.537,
+          "samples": 46,
+          "temp": -0.12,
+          "rain": 598.8
+        },
+        {
+          "year": 1965,
+          "ring": 0.384,
+          "samples": 46,
+          "temp": -1.76,
+          "rain": 681.5
+        },
+        {
+          "year": 1966,
+          "ring": 0.468,
+          "samples": 46,
+          "temp": -2.63,
+          "rain": 619.4
+        },
+        {
+          "year": 1967,
+          "ring": 0.51,
+          "samples": 46,
+          "temp": -0.4,
+          "rain": 750.7
+        },
+        {
+          "year": 1968,
+          "ring": 0.505,
+          "samples": 46,
+          "temp": -1.89,
+          "rain": 486.9
+        },
+        {
+          "year": 1969,
+          "ring": 0.444,
+          "samples": 46,
+          "temp": -0.99,
+          "rain": 472.8
+        },
+        {
+          "year": 1970,
+          "ring": 0.483,
+          "samples": 46,
+          "temp": -0.57,
+          "rain": 525.6
+        },
+        {
+          "year": 1971,
+          "ring": 0.469,
+          "samples": 46,
+          "temp": -1.64,
+          "rain": 470.3
+        },
+        {
+          "year": 1972,
+          "ring": 0.485,
+          "samples": 46,
+          "temp": 0.77,
+          "rain": 623.4
+        },
+        {
+          "year": 1973,
+          "ring": 0.572,
+          "samples": 46,
+          "temp": -0.85,
+          "rain": 542.2
+        },
+        {
+          "year": 1974,
+          "ring": 0.427,
+          "samples": 46,
+          "temp": 1.26,
+          "rain": 749.4
+        },
+        {
+          "year": 1975,
+          "ring": 0.478,
+          "samples": 46,
+          "temp": 0.17,
+          "rain": 571.4
+        },
+        {
+          "year": 1976,
+          "ring": 0.556,
+          "samples": 46,
+          "temp": -1.24,
+          "rain": 437.5
+        },
+        {
+          "year": 1977,
+          "ring": 0.447,
+          "samples": 45,
+          "temp": -1.17,
+          "rain": 711.9
+        },
+        {
+          "year": 1978,
+          "ring": 0.488,
+          "samples": 45,
+          "temp": -1.83,
+          "rain": 513
+        },
+        {
+          "year": 1979,
+          "ring": 0.572,
+          "samples": 45,
+          "temp": -0.72,
+          "rain": 580.8
+        },
+        {
+          "year": 1980,
+          "ring": 0.432,
+          "samples": 45,
+          "temp": -1.57,
+          "rain": 416.3
+        },
+        {
+          "year": 1981,
+          "ring": 0.296,
+          "samples": 45,
+          "temp": -2.18,
+          "rain": 644.6
+        },
+        {
+          "year": 1982,
+          "ring": 0.366,
+          "samples": 45,
+          "temp": -0.46,
+          "rain": 596.1
+        },
+        {
+          "year": 1983,
+          "ring": 0.397,
+          "samples": 45,
+          "temp": -0.59,
+          "rain": 603.2
+        },
+        {
+          "year": 1984,
+          "ring": 0.335,
+          "samples": 45,
+          "temp": 0.07,
+          "rain": 566.5
+        },
+        {
+          "year": 1985,
+          "ring": 0.392,
+          "samples": 45,
+          "temp": -2.52,
+          "rain": 603
+        },
+        {
+          "year": 1986,
+          "ring": 0.394,
+          "samples": 45,
+          "temp": -0.99,
+          "rain": 515.5
+        },
+        {
+          "year": 1987,
+          "ring": 0.317,
+          "samples": 45,
+          "temp": -1.96,
+          "rain": 521.5
+        },
+        {
+          "year": 1988,
+          "ring": 0.348,
+          "samples": 45,
+          "temp": -0.5,
+          "rain": 530.3
+        },
+        {
+          "year": 1989,
+          "ring": 0.367,
+          "samples": 45,
+          "temp": 1.18,
+          "rain": 625.5
+        },
+        {
+          "year": 1990,
+          "ring": 0.338,
+          "samples": 45,
+          "temp": 0.73,
+          "rain": 506.1
+        },
+        {
+          "year": 1991,
+          "ring": 0.34,
+          "samples": 45,
+          "temp": -0.16,
+          "rain": 570.7
+        },
+        {
+          "year": 1992,
+          "ring": 0.307,
+          "samples": 45,
+          "temp": 0.4,
+          "rain": 701.6
+        },
+        {
+          "year": 1993,
+          "ring": 0.246,
+          "samples": 45,
+          "temp": -0.34,
+          "rain": 556
+        },
+        {
+          "year": 1994,
+          "ring": 0.244,
+          "samples": 45,
+          "temp": -0.41,
+          "rain": 444
+        },
+        {
+          "year": 1995,
+          "ring": 0.214,
+          "samples": 45,
+          "temp": -0.41,
+          "rain": 568.9
+        },
+        {
+          "year": 1996,
+          "ring": 0.247,
+          "samples": 45,
+          "temp": -0.49,
+          "rain": 607.4
+        },
+        {
+          "year": 1997,
+          "ring": 0.315,
+          "samples": 45,
+          "temp": 0.12,
+          "rain": 446.1
+        },
+        {
+          "year": 1998,
+          "ring": 0.349,
+          "samples": 45,
+          "temp": -1.34,
+          "rain": 718.4
+        },
+        {
+          "year": 1999,
+          "ring": 0.317,
+          "samples": 45,
+          "temp": -0.2,
+          "rain": 629.4
+        },
+        {
+          "year": 2000,
+          "ring": 0.323,
+          "samples": 45,
+          "temp": 1.1,
+          "rain": 664.6
+        },
+        {
+          "year": 2001,
+          "ring": 0.358,
+          "samples": 45,
+          "temp": -0.16,
+          "rain": 589.2
+        },
+        {
+          "year": 2002,
+          "ring": 0.348,
+          "samples": 45,
+          "temp": 0.13,
+          "rain": 463.2
+        },
+        {
+          "year": 2003,
+          "ring": 0.387,
+          "samples": 44,
+          "temp": 0.41,
+          "rain": 505
+        },
+        {
+          "year": 2004,
+          "ring": 0.377,
+          "samples": 43,
+          "temp": 0.4,
+          "rain": 687.7
+        },
+        {
+          "year": 2005,
+          "ring": 0.395,
+          "samples": 43,
+          "temp": 1.1,
+          "rain": 652.2
+        },
+        {
+          "year": 2006,
+          "ring": 0.406,
+          "samples": 43,
+          "temp": 0.78,
+          "rain": 513
+        },
+        {
+          "year": 2007,
+          "ring": 0.336,
+          "samples": 43,
+          "temp": 0.66,
+          "rain": 628.3
+        },
+        {
+          "year": 2008,
+          "ring": 0.324,
+          "samples": 43,
+          "temp": 0.21,
+          "rain": 570.9
+        },
+        {
+          "year": 2009,
+          "ring": 0.32,
+          "samples": 43,
+          "temp": 0.37,
+          "rain": 459.5
+        },
+        {
+          "year": 2010,
+          "ring": 0.26,
+          "samples": 43,
+          "temp": -1.18,
+          "rain": 531.7
+        },
+        {
+          "year": 2011,
+          "ring": 0.426,
+          "samples": 42,
+          "temp": 1.29,
+          "rain": 698.4
+        },
+        {
+          "year": 2012,
+          "ring": 0.441,
+          "samples": 42,
+          "temp": -0.59,
+          "rain": 681.6
+        },
+        {
+          "year": 2013,
+          "ring": 0.383,
+          "samples": 41,
+          "temp": 1.02,
+          "rain": 561
+        },
+        {
+          "year": 2014,
+          "ring": 0.365,
+          "samples": 39,
+          "temp": 1.23,
+          "rain": 566.1
+        },
+        {
+          "year": 2015,
+          "ring": 0.352,
+          "samples": 39,
+          "temp": 1.33,
+          "rain": 729.8
+        },
+        {
+          "year": 2016,
+          "ring": 0.313,
+          "samples": 39,
+          "temp": 1.19,
+          "rain": 833.4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+.site-icon {
+  background: var(--paper);
+  border: 3px solid var(--ink);
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 50%;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, .25);
+  transition: transform .18s, background .18s;
+  cursor: pointer;
+}
+
+.site-icon.selected {
+  background: var(--orange);
+  border: 4px solid var(--paper);
+  width: 22px !important;
+  height: 22px !important;
+  transform: translate(-3px, -3px);
+}

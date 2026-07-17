@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TreePulse Finland</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="map-markers.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">TreePulse <span>Finland</span></a>
+    <nav><a href="#explore">Explore</a><a href="#method">Method</a><a href="#sources">Sources</a></nav>
+    <span class="status"><i></i> Measured data</span>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow">Forest climate research tool</p><h1>Read the climate<br>inside a tree.</h1></div>
+      <p class="lede">Compare annual tree-ring growth with temperature and rainfall across Finland. Start with a measured Scots pine chronology from Muonio.</p>
+    </section>
+
+    <section id="explore" class="workspace">
+      <div class="map-pane">
+        <div class="map-heading"><div><span class="label">Research map</span><strong>Finland</strong></div><button id="recenter">Recenter</button></div>
+        <div id="map" aria-label="Topographic map of Finland with research sites"></div>
+        <div class="map-key"><span><i class="dot active"></i> Selected chronology</span><span><i class="dot study"></i> Other measured sites</span></div>
+      </div>
+      <aside class="analysis-pane">
+        <div class="site-head"><div><p class="eyebrow">Selected site</p><h2 id="siteName">Muonio ELU01</h2><p id="siteMeta">Scots pine · 67.63°N, 23.95°E · 340 m</p></div><div class="tree-mark">♧</div></div>
+        <div class="range-row"><label for="startYear">Period</label><div><select id="startYear"></select><span>—</span><select id="endYear"></select></div></div>
+        <div class="metrics">
+          <div><span>Temperature correlation</span><strong id="tempCorr">—</strong><small>Pearson r</small></div>
+          <div><span>Rainfall correlation</span><strong id="rainCorr">—</strong><small>Pearson r</small></div>
+        </div>
+        <div class="chart-block"><div class="chart-title"><div><h3>Growth & temperature</h3><p>Ring width (mm) · annual mean (°C)</p></div><div class="legend"><span class="ring">Growth</span><span class="temp">Temp</span></div></div><canvas id="growthChart"></canvas></div>
+        <div class="chart-block compact"><div class="chart-title"><div><h3>Rainfall response</h3><p>Annual precipitation (mm)</p></div></div><canvas id="rainChart"></canvas></div>
+        <p class="selection-note" id="selectionNote"></p>
+      </aside>
+    </section>
+
+    <section id="method" class="method">
+      <div><p class="eyebrow">Interpretation</p><h2>Correlation is a signal,<br>not a verdict.</h2></div>
+      <div class="method-grid"><article><b>01</b><h3>Match by year</h3><p>Annual ring widths are averaged across available cores and paired with climate values at the site.</p></article><article><b>02</b><h3>Compare variation</h3><p>Pearson’s r measures whether wider rings tend to occur in warmer or wetter years.</p></article><article><b>03</b><h3>Check confounders</h3><p>Tree age, competition, soil moisture, disturbances and seasonal climate can all affect growth.</p></article></div>
+    </section>
+
+    <section id="sources" class="sources"><div><p class="eyebrow">Open research data</p><h2>Sources & provenance</h2></div><div class="source-list">
+      <a href="https://doi.org/10.25921/c3qh-2h10" target="_blank"><span>Tree-ring measurements</span><strong>NOAA International Tree-Ring Data Bank · Muonio ELU01</strong><em>Raw ring widths, accessed 17 Jul 2026 ↗</em></a>
+      <a href="https://open-meteo.com/en/docs/historical-weather-api" target="_blank"><span>Climate series</span><strong>Open-Meteo Historical Weather API · ERA5-Land</strong><em>Daily mean temperature & precipitation ↗</em></a>
+      <a href="https://www.luke.fi/en/projects/graf" target="_blank"><span>Finnish research context</span><strong>Natural Resources Institute Finland (Luke) · GRAF</strong><em>Tree growth variability and climate ↗</em></a>
+      <a href="https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/datasets-and-interfaces/product-descriptions/topographic-database" target="_blank"><span>Landscape reference</span><strong>National Land Survey of Finland</strong><em>Topography, forests, water & elevation ↗</em></a>
+    </div></section>
+  </main>
+  <footer><span>TreePulse Finland · research prototype</span><span>Do not infer causation from correlation alone.</span></footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
