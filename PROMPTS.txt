@@ -1,0 +1,86 @@
+ClimateClimax user prompt log
+=============================
+
+Reconstructed from the project conversation. Prompts are preserved as closely as possible from the user-authored request text. Ambient browser and environment metadata are excluded.
+
+001
+run it
+
+002
+can u create my project to /Users/aleksireuna/Documents/ClimeteClimax folder
+
+003
+I want to make research tool for global warming. Data is from forest trees, their layers which tells their age and comparing it to temperature and rain falls in same area.
+
+is there correlations of tree growing speed to that data
+
+Make graphic visualization of that in Finland using nature map which shows forest areas, water areas, hills and so on
+
+Use celsius degrees on charts. Use real data sources of climate and tree growth. For example LUKE data in Finland
+
+004
+how can i run my project
+
+005
+i cannot change red data spot on the map, fix it
+
+006
+commit files to github into the ClimateClimax repo
+
+007
+i have github desktop i use it
+
+008
+i changed the source folder of the project to /Users/aleksireuna/Documents/GitHub/ClimateClimax.
+
+009
+next time uset that folder and files when changing project
+
+010
+where u get temperature data?
+
+011
+can u find any data similar than in Kuusipää in southern Finland? If can add more data spots
+
+012
+why 1978 is last year in period of Liesjärvi
+
+013
+why last year of data in pitkäjärvi is 2016?
+
+are there any data sources that go to year 2020 or more?
+
+014
+add LiPheStream, Hyytiälä, 2020–2021: Open high-frequency laser-scanning observations of boreal-tree growth and phenology. It measures changing tree structure rather than annual ring width. https://pmc.ncbi.nlm.nih.gov/articles/PMC11589874/
+
+Luke MVMI 2021: Open nationwide forest inventory maps. Useful for forest volume and growth context, but not individual annual rings
+
+data sources even withoout ring with info
+
+015
+add new feature: show finland avarage temperature rising chart from 1970 until today. use https://en.ilmatieteenlaitos.fi/download-observations data
+
+016
+add similar kind of 10-year moving avarage temperature to data spots so yearly variation is not so confusing to see longer trends of temperature rising
+
+017
+commit files to github
+
+018
+commit locally only
+
+019
+add new feature: if clicking outside of data spots is does not show any tree related data in the main chart top right side. Then it just shows temperature and rainfall from 1970 to today
+
+020
+i cannot click the map anywhere and get temperature and rain data from those coordinates. Make this feature working. f clicking outside of data spots is does not show any tree related data in the main chart top right side. Then it just shows temperature and rainfall from 1970 to today
+
+021
+clicking anywhere is not working. the chart does not update to show data of clicked spot
+
+022
+commit to local github
+
+023 — 2026-07-18
+remember every promp that i used in this project. i want to get text file later of promps
+
