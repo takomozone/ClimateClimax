@@ -84,3 +84,8 @@ commit to local github
 023 — 2026-07-18
 remember every promp that i used in this project. i want to get text file later of promps
 
+024 — 2026-07-24
+i want to add data spots in sweden and in estonia if they are available
+
+025 — 2026-07-24
+commit to local github

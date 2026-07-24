@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TreePulse Finland</title>
+  <title>TreePulse North</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#">TreePulse <span>Finland</span></a>
+    <a class="brand" href="#">TreePulse <span>North</span></a>
     <nav><a href="#explore">Explore</a><a href="#method">Method</a><a href="#sources">Sources</a></nav>
     <span class="status"><i></i> Measured data</span>
   </header>
@@ -22,13 +22,13 @@
   <main>
     <section class="intro">
       <div><p class="eyebrow">Forest climate research tool</p><h1>Read the climate<br>inside a tree.</h1></div>
-      <p class="lede">Compare annual tree-ring growth with temperature and rainfall across Finland. Start with a measured Scots pine chronology from Muonio.</p>
+      <p class="lede">Compare annual tree-ring growth with temperature and rainfall across Finland, Sweden and Estonia. Start with a measured Scots pine chronology from Muonio.</p>
     </section>
 
     <section id="explore" class="workspace">
       <div class="map-pane">
-        <div class="map-heading"><div><span class="label">Research map · click for climate</span><strong>Finland</strong></div><button id="recenter">Recenter</button></div>
-        <div id="map" aria-label="Topographic map of Finland; click any location for temperature and rainfall, or select a research marker for tree data"></div>
+        <div class="map-heading"><div><span class="label">Research map · click Finland for climate</span><strong>Finland · Sweden · Estonia</strong></div><button id="recenter">Recenter</button></div>
+        <div id="map" aria-label="Topographic map of Finland, Sweden and Estonia; select a research marker for tree data, or click Finland for temperature and rainfall"></div>
         <div class="map-key"><span><i class="dot active"></i> Selected</span><span><i class="dot study"></i> Tree rings</span><span><i class="dot lidar"></i> LiDAR</span></div>
       </div>
       <aside class="analysis-pane">
@@ -59,7 +59,8 @@
     </section>
 
     <section id="sources" class="sources"><div><p class="eyebrow">Open research data</p><h2>Sources & provenance</h2></div><div class="source-list">
-      <a href="https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/" target="_blank"><span>Tree-ring measurements</span><strong>NOAA International Tree-Ring Data Bank · six Finnish chronologies</strong><em>Raw ring widths, accessed 17 Jul 2026 ↗</em></a>
+      <a href="https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/" target="_blank"><span>Tree-ring measurements</span><strong>NOAA International Tree-Ring Data Bank · six Finnish and two Swedish chronologies</strong><em>Raw ring widths, accessed 24 Jul 2026 ↗</em></a>
+      <a href="https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/0J334A" target="_blank"><span>Estonian tree-ring measurements</span><strong>DANS Data Station Archaeology · Järvselja oak cores</strong><em>16 dated ring-width series, 1998 endpoint ↗</em></a>
       <a href="https://open-meteo.com/en/docs/historical-weather-api" target="_blank"><span>Research-site climate series</span><strong>Open-Meteo Historical Weather API · ERA5 / ERA5-Land</strong><em>Daily mean temperature & precipitation ↗</em></a>
       <a href="https://en.ilmatieteenlaitos.fi/statistics-from-1961-onwards" target="_blank"><span>Coordinate and national climate · 1970–2025</span><strong>Finnish Meteorological Institute · 10 km monthly grids</strong><em>Temperature and precipitation ↗</em></a>
       <a href="https://www.luke.fi/en/projects/graf" target="_blank"><span>Finnish research context</span><strong>Natural Resources Institute Finland (Luke) · GRAF</strong><em>Tree growth variability and climate ↗</em></a>
@@ -68,10 +69,10 @@
       <a href="https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/datasets-and-interfaces/product-descriptions/topographic-database" target="_blank"><span>Landscape reference</span><strong>National Land Survey of Finland</strong><em>Topography, forests, water & elevation ↗</em></a>
     </div></section>
   </main>
-  <footer><span>TreePulse Finland · research prototype</span><span>Do not infer causation from correlation alone.</span></footer>
+  <footer><span>TreePulse North · research prototype</span><span>Do not infer causation from correlation alone.</span></footer>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.11.0/proj4.js"></script>
-  <script src="app.js?v=20260718-1"></script>
+  <script src="app.js?v=20260724-2"></script>
 </body>
 </html>

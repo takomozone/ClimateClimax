@@ -12,7 +12,8 @@ Then open http://localhost:4173.
 
 ## Data
 
-- NOAA International Tree-Ring Data Bank, Muonio ELU01/ELU02, Kuusipää ELK01, Pitkäjärvi HLP01, Kyynärä/Liesjärvi FINL012 and Kovero FINL013, raw ring widths.
+- NOAA International Tree-Ring Data Bank, Muonio ELU01/ELU02, Kuusipää ELK01, Pitkäjärvi HLP01, Kyynärä/Liesjärvi FINL012, Kovero FINL013, Jokkmokk Wet SWED340 and Stockholm Wet SWED344, raw ring widths.
+- DANS Data Station Archaeology / DataverseNL, Järvselja EJAER: 16 dated oak ring-width series ending in 1998.
 - Open-Meteo Historical Weather API (ERA5 / ERA5-Land), daily temperature and precipitation aggregated annually for research sites.
 - Luke GRAF and 2026 NFI spruce research are linked as Finnish research context.
 - LiPheStream, Hyytiälä: 103 terrestrial LiDAR observations of 458 trees from April 2020 to September 2021.

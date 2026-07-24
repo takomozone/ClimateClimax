@@ -47,7 +47,7 @@ function coordinateClimateAt(clickedLat,clickedLon){
 }
 
 function setupMap(){
-  map=L.map('map',{zoomControl:false}).setView([65.2,25.8],5);
+  map=L.map('map',{zoomControl:false}).setView([63.7,23.1],5);
   L.control.zoom({position:'bottomright'}).addTo(map);
   L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',{maxZoom:17,attribution:'Map: © OpenStreetMap contributors, SRTM | Style: © OpenTopoMap'}).addTo(map);
   dataset.sites.forEach((entry,index)=>{
@@ -57,7 +57,7 @@ function setupMap(){
   contextMarker=L.marker([liphe.lat,liphe.lon],{icon:makeContextIcon(false),title:`Select ${liphe.name}`,bubblingMouseEvents:false}).addTo(map).bindTooltip(`${liphe.name} · ${liphe.period}`,{direction:'top'});
   contextMarker.on('click',selectLiPhe);
   map.on('click',selectClimate);
-  document.getElementById('recenter').onclick=()=>map.setView([65.2,25.8],5);
+  document.getElementById('recenter').onclick=()=>map.setView([63.7,23.1],5);
 }
 
 function makeIcon(selected){return L.divIcon({className:`site-icon${selected?' selected':''}`,iconSize:[16,16]})}
@@ -84,7 +84,7 @@ function selectSite(index){
   const s=activeSite.site;
   document.getElementById('selectionTypeLabel').textContent='Selected site';
   document.getElementById('siteName').textContent=s.name;
-  document.getElementById('siteMeta').textContent=`${s.species} · ${s.lat.toFixed(2)}°N, ${s.lon.toFixed(2)}°E · ${s.elevation} m`;
+  document.getElementById('siteMeta').textContent=`${s.species} · ${s.country} · ${s.lat.toFixed(2)}°N, ${s.lon.toFixed(2)}°E${s.elevation==null?'':` · ${s.elevation} m`}`;
   document.getElementById('siteSymbol').textContent='♧';
   const years=activeSite.years.map(d=>d.year);
   populateRange(activeSite.years,years.length<=25?years[0]:Math.max(years[0],1970));update();
